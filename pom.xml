@@ -10,6 +10,8 @@
 
 	<modules>
 		<module>../app-common</module>
+		<module>../app-jdbc</module>
+		<module>../app-workflow</module>
 		<module>../app-ws</module>
 		<module>../app-web</module>
 	</modules>
