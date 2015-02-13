@@ -365,8 +365,9 @@
 				<artifactId>activiti-process-validation</artifactId>
 				<version>${activiti.version}</version>
 			</dependency>
+			<!-- activiti end -->
+			
 		</dependencies>
-		<!-- activiti end -->
 
 	</dependencyManagement>
 
@@ -376,14 +377,9 @@
 			<plugins>
 
 				<!-- skip tests -->
-				<!-- <plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.4.2</version>
-					<configuration>
-						<skipTests>true</skipTests>
-					</configuration>
-				</plugin> -->
+				<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-surefire-plugin</artifactId> 
+					<version>2.4.2</version> <configuration> <skipTests>true</skipTests> </configuration> 
+					</plugin> -->
 
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
